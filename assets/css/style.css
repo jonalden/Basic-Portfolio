@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    border: solid 1px #cccccc;
+   
+}
+
+.nav h1 {
+    background: #4aaaa5;
+    width: 140px;
+    padding: 28px;
+    margin-left: 23.2%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+
+.navlinks {
+    float: right;
+    margin-right: 23.5%;
+    margin-top: 35px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.content {
+    background: white;
+    width: 838px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 35px;
+    border: 1px solid #dddddd
+}
+
+.content h2 {
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 0px 30px 0px;
+}
+
+hr {
+    border: solid 1px #cccccc; 
+    margin: 0px 0px 30px 0px;
+}
+
+img {
+    height: 200px;
+    width: 220px;
+    margin: 0px 30px 20px 0px;
+    float: left;
+}
+
+p {
+    display: inline;
+    color: gray;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    height: 6%;
+    width: 100%;
+    
+}
+
+
