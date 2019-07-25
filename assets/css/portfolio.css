@@ -21,6 +21,12 @@
     
 }
 
+.imageBox:hover {
+    cursor: pointer;
+    transition: .4s;
+    opacity: 50%;
+}
+
 img {
     float: none;
 }

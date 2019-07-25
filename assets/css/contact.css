@@ -20,6 +20,7 @@ input[type=text] {
 #button:hover {
     background-color: teal;
     cursor: pointer;
+    transition: .4s;
 }
 
 #button:focus {
