@@ -17,6 +17,17 @@ input[type=text] {
     font-size: 15;
 }
 
-input[type=submit]:hover {
+#button:hover {
     background-color: teal;
+    cursor: pointer;
+}
+
+#button:focus {
+    outline: none;
+    /* background: lightblue; */
+}
+
+#button:active {
+    outline: none;
+    Background-color: lightblue;
 }

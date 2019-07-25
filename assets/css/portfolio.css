@@ -1,0 +1,33 @@
+.imageboxes:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.imageBox {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.imageText {
+    background: #4aaaa5;
+    color: red;
+    padding: 5px;
+    position: absolute;
+    top: 145px;
+    width: 210px;
+    
+}
+
+img {
+    float: none;
+}
+
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+

@@ -12,6 +12,10 @@ p, a {
     color: gray;
 }
 
+p {
+    line-height: 35px;
+}
+
 .nav {
     background: white;
     width: 100%;
@@ -32,16 +36,22 @@ p, a {
     float: left;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navlinks {
     float: right;
     margin-right: 23.5%;
     margin-top: 35px;
-    
+    text-decoration: none;
 }
 
-.nav a {
+.nav a:hover {
     text-decoration: none;
     color: gray;
+    color: #4aaaa5;
+    transition-duration: .4s;
 }
 
 .content {
@@ -78,7 +88,7 @@ footer {
     left: 0px;
     bottom: 0px;
     background: #666666;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     height: 6%;
     width: 100%;
     
